@@ -7,6 +7,9 @@
 
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/7a0faa07-56a9-47b3-b07a-5e7cda1d68b2)
 
+#  Diagrama de flujo
+![diagrama](https://github.com/LauraDa999/Taller1/blob/main/Diagrama%20Taller%201.jpg?raw=true)
+
 
 # 3. Realice un programa que lea un número enteros y determine si es par o impar.
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/83734df5-05e6-4be2-8b7c-566d912e4b13)
