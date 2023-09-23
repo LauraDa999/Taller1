@@ -19,7 +19,7 @@ else:
 ```
 
 
-#  Diagrama de flujo
+#  Diagrama de flujo / PUNTO 2
 ![diagrama](https://github.com/LauraDa999/Taller1/blob/main/Diagrama%20Taller%201.jpg?raw=true)
 
 
@@ -197,10 +197,37 @@ else:
     print("La frecuencia no se encuentra en ninguna banda conocida del espectro electromagnético.")
 ```
 #  9. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
+```
+# diccionario que mapea países a sus ciudades capitales en América
+capitales_americas = {
+    'argentina': 'buenos aires',
+    'bolivia': 'la paz',
+    'brasil': 'brasilia',
+    'canada': 'ottawa',
+    'chile': 'santiago',
+    'colombia': 'bogota',
+    'costa rica': 'san jose',
+    'cuba': 'la habana',
+    'ecuador': 'quito',
+    'el salvador': 'san salvador',
+    'estados unidos': 'washington, d.c.',
+    'guatemala': 'ciudad de guatemala',
+    'honduras': 'tegucigalpa',
+    'mexico': 'ciudad de mexico',
+    'nicaragua': 'managua',
+    'panama': 'ciudad de panama',
+    'paraguay': 'asuncion',
+    'peru': 'lima',
+    'uruguay': 'montevideo',
+    'venezuela': 'caracas'
+}
 
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/2e986443-055d-4605-9370-18cc49f5cf2e)
+pais = input("Ingrese el nombre del país en minúsculas: ")
 
+capital = capitales_americas.get(pais, "país no identificado")
 
+print(f"La capital de {pais} es: {capital.capitalize()}")
+```
 #  10. Escriba un programa que dada una distancia calcule:
 
 El tiempo que le tomaría a la luz recorrer la distancia.
@@ -227,6 +254,7 @@ print(f"Tiempo que tomaría a Usain Bolt recorrer la distancia: {tiempo_bolt:.6f
 
 ```
 
+# Diagrama de flujo / PUNTO 10
 
 
 
