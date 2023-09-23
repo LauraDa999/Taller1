@@ -168,9 +168,34 @@ print(f'Raíz cúbica del menor número: {calcular_raiz_cubica_menor(numeros)}')
 ```
 
 # 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+```
+frecuencia = float(input("Ingrese la frecuencia en Hertz (Hz): "))
 
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/69078ae9-4e80-4e88-99bf-40dbb16d888f)
+radio = (3e2, 3e9)  # 300 Hz a 3 GHz
+microondas = (3e9, 3e11)  # 3 GHz a 300 GHz
+infrarrojo = (3e11, 4.3e14)  # 300 GHz a 430 THz
+visible = (4.3e14, 7.5e14)  # 430 THz a 750 THz
+ultravioleta = (7.5e14, 3e16)  # 750 THz a 30 PHz
+rayos_x = (3e16, 3e18)  # 30 PHz a 3 EHz
+rayos_gamma = (3e18, float('inf'))  # Más de 3 EHz
 
+if radio[0] <= frecuencia <= radio[1]:
+    print("La frecuencia está en la banda de las radiofrecuencias.")
+elif microondas[0] <= frecuencia <= microondas[1]:
+    print("La frecuencia está en la banda de las microondas.")
+elif infrarrojo[0] <= frecuencia <= infrarrojo[1]:
+    print("La frecuencia está en la banda de los infrarrojos.")
+elif visible[0] <= frecuencia <= visible[1]:
+    print("La frecuencia está en la banda de la luz visible.")
+elif ultravioleta[0] <= frecuencia <= ultravioleta[1]:
+    print("La frecuencia está en la banda de los ultravioletas.")
+elif rayos_x[0] <= frecuencia <= rayos_x[1]:
+    print("La frecuencia está en la banda de los rayos X.")
+elif rayos_gamma[0] <= frecuencia:
+    print("La frecuencia está en la banda de los rayos gamma.")
+else:
+    print("La frecuencia no se encuentra en ninguna banda conocida del espectro electromagnético.")
+```
 #  9. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/2e986443-055d-4605-9370-18cc49f5cf2e)
@@ -182,10 +207,25 @@ El tiempo que le tomaría a la luz recorrer la distancia.
 El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
 El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
 El tiempo que le tomaría a Bolt recorrer la distancia.
+```
+velocidad_luz = 299792458  # Velocidad de la luz en el vacío
+velocidad_sonido_aire = 343  # Velocidad del sonido en el aire a temperatura ambiente
+velocidad_avion_comercial = 250  # Velocidad promedio de un avión comercial en m/s
+velocidad_bolt = 12.42  # Velocidad máxima registrada de Usain Bolt en m/s
 
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/a8c1d073-60a8-4d83-a064-0dcb251b7025)
+distancia = float(input("Ingrese la distancia en metros: "))
 
+tiempo_luz = distancia / velocidad_luz
+tiempo_sonido_aire = distancia / velocidad_sonido_aire
+tiempo_avion_comercial = distancia / velocidad_avion_comercial
+tiempo_bolt = distancia / velocidad_bolt
 
+print(f"Tiempo que tomaría a la luz recorrer la distancia: {tiempo_luz:.6f} segundos")
+print(f"Tiempo que tomaría al sonido en el aire recorrer la distancia: {tiempo_sonido_aire:.6f} segundos")
+print(f"Tiempo que tomaría al vehículo comercial más veloz recorrer la distancia: {tiempo_avion_comercial:.6f} segundos")
+print(f"Tiempo que tomaría a Usain Bolt recorrer la distancia: {tiempo_bolt:.6f} segundos")
+
+```
 
 
 
