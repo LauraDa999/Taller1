@@ -4,8 +4,20 @@
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/66ca48a6-5a2f-4997-ac10-2e6b19232d5a)
 
 # 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
+```
+n1 = int(input("ingrese el primer número"))
+n2 = int(input("ingrese el segundo número"))
+n3 = int(input("ingree el tercer número"))
+if n1 and n1 > n3:
+    print("El número mayor es: ",n1) 
+elif n2 > n1 and n2 > n3:
+    print("El número mayor es:",n2)
+elif n3 > n1 and n3 > n2:
+    print("El número mayor es: ",n3)
+else:
+    print("No se pudo establecer el mayor")
+```
 
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/7a0faa07-56a9-47b3-b07a-5e7cda1d68b2)
 
 #  Diagrama de flujo
 ![diagrama](https://github.com/LauraDa999/Taller1/blob/main/Diagrama%20Taller%201.jpg?raw=true)
