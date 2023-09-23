@@ -5,7 +5,8 @@
 
 # 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
 
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/aabd8108-bfb4-4a92-bf65-ce95533bfa47)
+![image](https://github.com/LauraDa999/Taller1/assets/141860731/7a0faa07-56a9-47b3-b07a-5e7cda1d68b2)
+
 
 # 3. Realice un programa que lea un número enteros y determine si es par o impar.
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/83734df5-05e6-4be2-8b7c-566d912e4b13)
