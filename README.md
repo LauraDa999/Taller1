@@ -8,7 +8,8 @@
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/aabd8108-bfb4-4a92-bf65-ce95533bfa47)
 
 # 3. Realice un programa que lea un número enteros y determine si es par o impar.
-![Imagen de WhatsApp 2023-09-22 a las 20 56 02](https://github.com/LauraDa999/Taller1/assets/141860731/469cdef3-f143-4896-96d1-6dd0066edb2e)
+![image](https://github.com/LauraDa999/Taller1/assets/141860731/83734df5-05e6-4be2-8b7c-566d912e4b13)
+
 
 # 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/c1d14b9f-28f9-4958-9f96-267e58de3430)
