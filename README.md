@@ -43,6 +43,19 @@
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/2e986443-055d-4605-9370-18cc49f5cf2e)
 
 
+#  10. Escriba un programa que dada una distancia calcule:
+
+El tiempo que le tomaría a la luz recorrer la distancia.
+El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
+El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
+El tiempo que le tomaría a Bolt recorrer la distancia.
+
+![image](https://github.com/LauraDa999/Taller1/assets/141860731/a8c1d073-60a8-4d83-a064-0dcb251b7025)
+
+
+
+
+
 
 
 
