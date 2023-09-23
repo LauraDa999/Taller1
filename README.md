@@ -11,7 +11,8 @@
 ![Imagen de WhatsApp 2023-09-22 a las 20 56 02](https://github.com/LauraDa999/Taller1/assets/141860731/469cdef3-f143-4896-96d1-6dd0066edb2e)
 
 # 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
-![Imagen de WhatsApp 2023-09-22 a las 20 58 12](https://github.com/LauraDa999/Taller1/assets/141860731/861aaa70-1522-429e-b4d7-e84936339f78)
+![image](https://github.com/LauraDa999/Taller1/assets/141860731/c1d14b9f-28f9-4958-9f96-267e58de3430)
+
 
 # 5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/5b064879-2763-48ea-8a61-096eda97cd42)
