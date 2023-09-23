@@ -5,4 +5,5 @@
 
 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
 
+![image](https://github.com/LauraDa999/Taller1/assets/141860731/aabd8108-bfb4-4a92-bf65-ce95533bfa47)
 
