@@ -8,10 +8,10 @@
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/aabd8108-bfb4-4a92-bf65-ce95533bfa47)
 
 # 3. Realice un programa que lea un número enteros y determine si es par o impar.
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/ddd6aeda-8293-426e-ab22-0eb22ad1ce32)
+![Imagen de WhatsApp 2023-09-22 a las 20 56 02](https://github.com/LauraDa999/Taller1/assets/141860731/469cdef3-f143-4896-96d1-6dd0066edb2e)
 
 # 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/3124904e-5409-40df-a921-3f67d83fd374)
+![Imagen de WhatsApp 2023-09-22 a las 20 58 12](https://github.com/LauraDa999/Taller1/assets/141860731/861aaa70-1522-429e-b4d7-e84936339f78)
 
 # 5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/5b064879-2763-48ea-8a61-096eda97cd42)
@@ -30,9 +30,13 @@
 -La potencia del mayor número elevado al menor número
 -La raíz cúbica del menor número
 
+
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/9c1e0f71-cd5c-4ba7-8697-bcb2a6aee3bd)
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/e446be25-8722-4e15-8f03-8ae2e8bc2c42)
 
+# 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+
+![image](https://github.com/LauraDa999/Taller1/assets/141860731/69078ae9-4e80-4e88-99bf-40dbb16d888f)
 
 
 
