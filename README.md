@@ -24,20 +24,91 @@ else:
 
 
 # 3. Realice un programa que lea un número enteros y determine si es par o impar.
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/83734df5-05e6-4be2-8b7c-566d912e4b13)
+```
 
+
+numero = int(input("Ingrese un número entero: "))
+
+if numero % 2 == 0:
+    print(f"{numero} es un número par.")
+else:
+    print(f"{numero} es un número impar.")
+
+```
 
 # 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/c1d14b9f-28f9-4958-9f96-267e58de3430)
+```
+numero1 = float(input("Ingrese el primer número: "))
+numero2 = float(input("Ingrese el segundo número: "))
 
+if numero2 == 0:
+    print("No se puede determinar si un número es múltiplo de cero.")
+else:
+    if numero1 % numero2 == 0:
+        print(f"{numero1} es múltiplo de {numero2}.")
+    else:
+        print(f"{numero1} no es múltiplo de {numero2}.")
+```
 
 # 5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/5b064879-2763-48ea-8a61-096eda97cd42)
+```
+import math
+def calcular_promedio(numeros):
+    return sum(numeros) / len(numeros)
+
+def calcular_mediana(numeros):
+    numeros_ordenados = sorted(numeros)
+    n = len(numeros)
+    if n % 2 == 0:
+        medio1 = numeros_ordenados[n // 2 - 1]
+        medio2 = numeros_ordenados[n // 2]
+        mediana = (medio1 + medio2) / 2
+    else:
+        mediana = numeros_ordenados[n // 2]
+    return mediana
+
+def calcular_promedio_multiplicativo(numeros):
+    producto = 1
+    for numero in numeros:
+        producto *= numero
+    return producto ** (1 / len(numeros))
+
+def ordenar_numeros(numeros, ascendente=True):
+    return sorted(numeros) if ascendente else sorted(numeros, reverse=True)
+
+def calcular_potencia_mayor_menor(numeros):
+    mayor = max(numeros)
+    menor = min(numeros)
+    return mayor ** menor
+
+def calcular_raiz_cubica_menor(numeros):
+    menor = min(numeros)
+    return math.pow(menor, 1/3)
+
+numeros = []
+for i in range(5):
+    numero = float(input(f'Ingrese el número {i + 1}: '))
+    numeros.append(numero)
+
+print(f'Promedio: {calcular_promedio(numeros)}')
+print(f'Mediana: {calcular_mediana(numeros)}')
+print(f'Promedio multiplicativo: {calcular_promedio_multiplicativo(numeros)}')
+print(f'Números ordenados de forma ascendente: {ordenar_numeros(numeros)}')
+print(f'Números ordenados de forma descendente: {ordenar_numeros(numeros, ascendente=False)}')
+print(f'Potencia del mayor número elevado al menor número: {calcular_potencia_mayor_menor(numeros)}')
+print(f'Raíz cúbica del menor número: {calcular_raiz_cubica_menor(numeros)}')
+```
 
 # 6. Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante
-
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/97fd8c74-718f-4c91-b4a2-f2048ff222e1)
-
+```
+c = input("Ingresa una letra cualquiera: ")
+vocales =  ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+if c in vocales:
+    print("Es una vocal") 
+else:     
+    print("Es una consonante")
+```
+    
 # 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 
 -El promedio
@@ -48,9 +119,53 @@ else:
 -La potencia del mayor número elevado al menor número
 -La raíz cúbica del menor número
 
+```
+import math
+def calcular_promedio(numeros):
+    return sum(numeros) / len(numeros)
 
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/9c1e0f71-cd5c-4ba7-8697-bcb2a6aee3bd)
-![image](https://github.com/LauraDa999/Taller1/assets/141860731/e446be25-8722-4e15-8f03-8ae2e8bc2c42)
+def calcular_mediana(numeros):
+    numeros_ordenados = sorted(numeros)
+    n = len(numeros)
+    if n % 2 == 0:
+        medio1 = numeros_ordenados[n // 2 - 1]
+        medio2 = numeros_ordenados[n // 2]
+        mediana = (medio1 + medio2) / 2
+    else:
+        mediana = numeros_ordenados[n // 2]
+    return mediana
+
+def calcular_promedio_multiplicativo(numeros):
+    producto = 1
+    for numero in numeros:
+        producto *= numero
+    return producto ** (1 / len(numeros))
+
+def ordenar_numeros(numeros, ascendente=True):
+    return sorted(numeros) if ascendente else sorted(numeros, reverse=True)
+
+def calcular_potencia_mayor_menor(numeros):
+    mayor = max(numeros)
+    menor = min(numeros)
+    return mayor ** menor
+
+def calcular_raiz_cubica_menor(numeros):
+    menor = min(numeros)
+    return math.pow(menor, 1/3)
+
+numeros = []
+for i in range(5):
+    numero = float(input(f'Ingrese el número {i + 1}: '))
+    numeros.append(numero)
+
+print(f'Promedio: {calcular_promedio(numeros)}')
+print(f'Mediana: {calcular_mediana(numeros)}')
+print(f'Promedio multiplicativo: {calcular_promedio_multiplicativo(numeros)}')
+print(f'Números ordenados de forma ascendente: {ordenar_numeros(numeros)}')
+print(f'Números ordenados de forma descendente: {ordenar_numeros(numeros, ascendente=False)}')
+print(f'Potencia del mayor número elevado al menor número: {calcular_potencia_mayor_menor(numeros)}')
+print(f'Raíz cúbica del menor número: {calcular_raiz_cubica_menor(numeros)}')
+```
 
 # 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 
