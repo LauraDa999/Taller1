@@ -38,5 +38,11 @@
 
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/69078ae9-4e80-4e88-99bf-40dbb16d888f)
 
+#  9. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
+
+![image](https://github.com/LauraDa999/Taller1/assets/141860731/2e986443-055d-4605-9370-18cc49f5cf2e)
+
+
+
 
 
