@@ -1,5 +1,5 @@
 # Taller1
-LOGO DE NUESTRO EQUIPO
+#  LOGO DE NUESTRO EQUIPO
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/433b1645-87dd-48eb-84d6-fc6bc19051d4)
 
 #  1.El resultado de nuestro Python Beginner Quiz:
