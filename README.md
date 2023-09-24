@@ -1,4 +1,6 @@
 # Taller1
+LOGO DE NUESTRO EQUIPO
+![image](https://github.com/LauraDa999/Taller1/assets/141860731/433b1645-87dd-48eb-84d6-fc6bc19051d4)
 
 #  1.El resultado de nuestro Python Beginner Quiz:
 ![image](https://github.com/LauraDa999/Taller1/assets/141860731/66ca48a6-5a2f-4997-ac10-2e6b19232d5a)
