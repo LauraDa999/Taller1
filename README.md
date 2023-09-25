@@ -109,6 +109,23 @@ print(f"Tiempo que tomaría a Usain Bolt recorrer la distancia: {tiempo_bolt:.6f
 
 # Diagrama de flujo / PUNTO 10
 
+```mermaid
+graph TD
+A[Inicio] --> B[Solicitar distancia en metros]
+B --> C[Calcular tiempo para la luz]
+B --> D[Calcular tiempo para el sonido en el aire]
+B --> E[Calcular tiempo para el avión comercial]
+B --> F[Calcular tiempo para Usain Bolt]
+C --> G[Mostrar tiempo para la luz]
+D --> H[Mostrar tiempo para el sonido en el aire]
+E --> I[Mostrar tiempo para el avión comercial]
+F --> J[Mostrar tiempo para Usain Bolt]
+G --> K[Fin]
+H --> K
+I --> K
+J --> K
+```
+
 #Puntos impares
 
 
