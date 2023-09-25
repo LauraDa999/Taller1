@@ -126,8 +126,6 @@ I --> K
 J --> K
 ```
 
-#  Puntos impares
-Puntos impares .Taller1.ipynb
 
 
 
