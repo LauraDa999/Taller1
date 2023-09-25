@@ -134,5 +134,7 @@ https://youtu.be/efxRk36vKps
 
 
 
+![Imagen de WhatsApp 2023-09-24 a las 23 21 08](https://github.com/LauraDa999/Taller1-CODE.FARMERS/assets/141860731/0ee651ea-b9c6-46d1-a14f-c21e45dc926a)
 
+#   gracias
 
