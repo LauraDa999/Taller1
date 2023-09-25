@@ -25,17 +25,6 @@ else:
 ![diagrama](https://github.com/LauraDa999/Taller1/blob/main/Diagrama%20Taller%201.jpg?raw=true)
 
 
-# 3. Realice un programa que lea un número enteros y determine si es par o impar.
-```
-
-
-numero = int(input("Ingrese un número entero: "))
-
-if numero % 2 == 0:
-    print(f"{numero} es un número par.")
-else:
-    print(f"{numero} es un número impar.")
-
 ```
 
 # 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
@@ -52,55 +41,6 @@ else:
         print(f"{numero1} no es múltiplo de {numero2}.")
 ```
 
-# 5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
-```
-import math
-def calcular_promedio(numeros):
-    return sum(numeros) / len(numeros)
-
-def calcular_mediana(numeros):
-    numeros_ordenados = sorted(numeros)
-    n = len(numeros)
-    if n % 2 == 0:
-        medio1 = numeros_ordenados[n // 2 - 1]
-        medio2 = numeros_ordenados[n // 2]
-        mediana = (medio1 + medio2) / 2
-    else:
-        mediana = numeros_ordenados[n // 2]
-    return mediana
-
-def calcular_promedio_multiplicativo(numeros):
-    producto = 1
-    for numero in numeros:
-        producto *= numero
-    return producto ** (1 / len(numeros))
-
-def ordenar_numeros(numeros, ascendente=True):
-    return sorted(numeros) if ascendente else sorted(numeros, reverse=True)
-
-def calcular_potencia_mayor_menor(numeros):
-    mayor = max(numeros)
-    menor = min(numeros)
-    return mayor ** menor
-
-def calcular_raiz_cubica_menor(numeros):
-    menor = min(numeros)
-    return math.pow(menor, 1/3)
-
-numeros = []
-for i in range(5):
-    numero = float(input(f'Ingrese el número {i + 1}: '))
-    numeros.append(numero)
-
-print(f'Promedio: {calcular_promedio(numeros)}')
-print(f'Mediana: {calcular_mediana(numeros)}')
-print(f'Promedio multiplicativo: {calcular_promedio_multiplicativo(numeros)}')
-print(f'Números ordenados de forma ascendente: {ordenar_numeros(numeros)}')
-print(f'Números ordenados de forma descendente: {ordenar_numeros(numeros, ascendente=False)}')
-print(f'Potencia del mayor número elevado al menor número: {calcular_potencia_mayor_menor(numeros)}')
-print(f'Raíz cúbica del menor número: {calcular_raiz_cubica_menor(numeros)}')
-```
-
 # 6. Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante
 ```
 c = input("Ingresa una letra cualquiera: ")
@@ -109,64 +49,6 @@ if c in vocales:
     print("Es una vocal") 
 else:     
     print("Es una consonante")
-```
-    
-# 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
-
--El promedio
--La mediana
--El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
--Ordenar los números de forma ascendente
--Ordenar los números de forma descendente
--La potencia del mayor número elevado al menor número
--La raíz cúbica del menor número
-
-```
-import math
-def calcular_promedio(numeros):
-    return sum(numeros) / len(numeros)
-
-def calcular_mediana(numeros):
-    numeros_ordenados = sorted(numeros)
-    n = len(numeros)
-    if n % 2 == 0:
-        medio1 = numeros_ordenados[n // 2 - 1]
-        medio2 = numeros_ordenados[n // 2]
-        mediana = (medio1 + medio2) / 2
-    else:
-        mediana = numeros_ordenados[n // 2]
-    return mediana
-
-def calcular_promedio_multiplicativo(numeros):
-    producto = 1
-    for numero in numeros:
-        producto *= numero
-    return producto ** (1 / len(numeros))
-
-def ordenar_numeros(numeros, ascendente=True):
-    return sorted(numeros) if ascendente else sorted(numeros, reverse=True)
-
-def calcular_potencia_mayor_menor(numeros):
-    mayor = max(numeros)
-    menor = min(numeros)
-    return mayor ** menor
-
-def calcular_raiz_cubica_menor(numeros):
-    menor = min(numeros)
-    return math.pow(menor, 1/3)
-
-numeros = []
-for i in range(5):
-    numero = float(input(f'Ingrese el número {i + 1}: '))
-    numeros.append(numero)
-
-print(f'Promedio: {calcular_promedio(numeros)}')
-print(f'Mediana: {calcular_mediana(numeros)}')
-print(f'Promedio multiplicativo: {calcular_promedio_multiplicativo(numeros)}')
-print(f'Números ordenados de forma ascendente: {ordenar_numeros(numeros)}')
-print(f'Números ordenados de forma descendente: {ordenar_numeros(numeros, ascendente=False)}')
-print(f'Potencia del mayor número elevado al menor número: {calcular_potencia_mayor_menor(numeros)}')
-print(f'Raíz cúbica del menor número: {calcular_raiz_cubica_menor(numeros)}')
 ```
 
 # 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
@@ -198,38 +80,7 @@ elif rayos_gamma[0] <= frecuencia:
 else:
     print("La frecuencia no se encuentra en ninguna banda conocida del espectro electromagnético.")
 ```
-#  9. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
-```
-# diccionario que mapea países a sus ciudades capitales en América
-capitales_americas = {
-    'argentina': 'buenos aires',
-    'bolivia': 'la paz',
-    'brasil': 'brasilia',
-    'canada': 'ottawa',
-    'chile': 'santiago',
-    'colombia': 'bogota',
-    'costa rica': 'san jose',
-    'cuba': 'la habana',
-    'ecuador': 'quito',
-    'el salvador': 'san salvador',
-    'estados unidos': 'washington, d.c.',
-    'guatemala': 'ciudad de guatemala',
-    'honduras': 'tegucigalpa',
-    'mexico': 'ciudad de mexico',
-    'nicaragua': 'managua',
-    'panama': 'ciudad de panama',
-    'paraguay': 'asuncion',
-    'peru': 'lima',
-    'uruguay': 'montevideo',
-    'venezuela': 'caracas'
-}
 
-pais = input("Ingrese el nombre del país en minúsculas: ")
-
-capital = capitales_americas.get(pais, "país no identificado")
-
-print(f"La capital de {pais} es: {capital.capitalize()}")
-```
 #  10. Escriba un programa que dada una distancia calcule:
 
 El tiempo que le tomaría a la luz recorrer la distancia.
@@ -257,6 +108,9 @@ print(f"Tiempo que tomaría a Usain Bolt recorrer la distancia: {tiempo_bolt:.6f
 ```
 
 # Diagrama de flujo / PUNTO 10
+
+#Puntos impares
+
 
 
 
