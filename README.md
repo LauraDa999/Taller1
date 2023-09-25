@@ -25,9 +25,9 @@ else:
 ![diagrama](https://github.com/LauraDa999/Taller1/blob/main/Diagrama%20Taller%201.jpg?raw=true)
 
 
-```
 
-# 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
+
+#  4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ```
 numero1 = float(input("Ingrese el primer número: "))
 numero2 = float(input("Ingrese el segundo número: "))
@@ -41,7 +41,7 @@ else:
         print(f"{numero1} no es múltiplo de {numero2}.")
 ```
 
-# 6. Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante
+#  6. Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante
 ```
 c = input("Ingresa una letra cualquiera: ")
 vocales =  ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
@@ -51,7 +51,7 @@ else:
     print("Es una consonante")
 ```
 
-# 8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+#  8. Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 ```
 frecuencia = float(input("Ingrese la frecuencia en Hertz (Hz): "))
 
